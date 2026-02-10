@@ -24,9 +24,17 @@ public class App {
         // EX 1 - Crie uma classe abstrata Veiculo com um método abstrato mover(), e implemente Carro e Bicicleta. 
         //=================================================================================================================================
         
+        Carro car1 = new Carro("Renault", "Sandero");
+        Carro car2 = new Carro("Chevrolet", "Monza");
 
+        Bicicleta bike1 = new Bicicleta("Caloi", "e-vibe");
+        Bicicleta bike2 = new Bicicleta("Soul", "Volcano");
 
-
+        car1.mover();
+        car2.mover();
+        bike1.mover();
+        bike2.mover();
+    
         //=================================================================================================================================
         // EX 2 - Crie uma classe abstrata InstrumentoMusical com um método abstrato tocar(), e implemente Guitarra e Piano. 
         //=================================================================================================================================
