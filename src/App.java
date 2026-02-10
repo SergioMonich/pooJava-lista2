@@ -23,7 +23,7 @@ public class App {
         //=================================================================================================================================
         // EX 1 - Crie uma classe abstrata Veiculo com um método abstrato mover(), e implemente Carro e Bicicleta. 
         //=================================================================================================================================
-        
+        /*
         Carro car1 = new Carro("Renault", "Sandero");
         Carro car2 = new Carro("Chevrolet", "Monza");
 
@@ -34,17 +34,28 @@ public class App {
         car2.mover();
         bike1.mover();
         bike2.mover();
-    
+        */
         //=================================================================================================================================
         // EX 2 - Crie uma classe abstrata InstrumentoMusical com um método abstrato tocar(), e implemente Guitarra e Piano. 
         //=================================================================================================================================
+        /*
+        Guitarra guitar1 = new Guitarra("Fender", "Player plus Stratocaster");
 
+        Piano piano1 = new Piano("Roland", "FP-30X-BK");
 
-
-
+        guitar1.tocar();
+        piano1.tocar();
+        */
         //=================================================================================================================================
         // EX 3 - Crie uma classe abstrata FormaGeometrica com métodos abstratos calcularArea() e calcularPerimetro(). Crie Circulo e Retangulo. 
         //=================================================================================================================================
+
+        int opcaoSwitchCase;
+
+        Circulo circulo1 = new Circulo(30);
+        Retangulo ret1 = new Retangulo(20, 10);
+
+        
 
 
 
