@@ -5,9 +5,9 @@
 
 public class Bicicleta extends Veiculo {
 
-    public Bicicleta(String marca, String modelo) {
+    public Bicicleta(String marca, String modelo, String cor) {
         
-        super(marca, modelo);
+        super(marca, modelo, cor);
         
     }
 

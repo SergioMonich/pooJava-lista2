@@ -20,14 +20,14 @@ public class Circulo extends FormaGeometrica {
     @Override
     public void calcularArea() {
         
-        System.out.println("Área do circulo: " + ((Math.pow(raio, 2) * pi))); //método da biblioteca de matemática
+        System.out.printf("Área do circulo: %.2f%n", ((Math.pow(raio, 2) * pi))); //método da biblioteca de matemática
         
     }
 
     @Override
     public void calcularPerimetro() {
         
-        System.out.println("Perímetro do círculo: " + (2 * pi * raio));
+        System.out.printf("Perímetro do círculo: %.2f%n", (2 * pi * raio));
 
     }
 

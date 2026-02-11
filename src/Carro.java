@@ -6,9 +6,9 @@
 public class Carro extends Veiculo{
 
     //construtor com herança
-    public Carro(String marca, String modelo) {
+    public Carro(String marca, String modelo, String cor) {
         
-        super(marca, modelo);
+        super(marca, modelo, cor);
         
     }
 

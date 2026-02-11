@@ -21,14 +21,14 @@ public class Retangulo extends FormaGeometrica {
     @Override
     public void calcularArea() {
         
-        System.out.println("Área do retangulo: " + (base * largura));
+        System.out.printf("Área do retangulo: %.2f%n", (base * largura));
 
     }
 
     @Override
     public void calcularPerimetro() {
         
-        System.out.println("Perímetro do retangulo: " + (2 * (largura + base)));
+        System.out.printf("Perímetro do retangulo: %.2f%n", (2 * (largura + base)));
     }
 
 }

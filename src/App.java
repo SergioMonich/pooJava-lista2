@@ -24,16 +24,13 @@ public class App {
         // EX 1 - Crie uma classe abstrata Veiculo com um método abstrato mover(), e implemente Carro e Bicicleta. 
         //=================================================================================================================================
         /*
-        Carro car1 = new Carro("Renault", "Sandero");
-        Carro car2 = new Carro("Chevrolet", "Monza");
-
-        Bicicleta bike1 = new Bicicleta("Caloi", "e-vibe");
-        Bicicleta bike2 = new Bicicleta("Soul", "Volcano");
+        Carro car1 = new Carro("Renault", "Sandero", "branco");
+        Bicicleta bike1 = new Bicicleta("Caloi", "e-vibe", "azul");
 
         car1.mover();
-        car2.mover();
+        car1.mostrarCor();
         bike1.mover();
-        bike2.mover();
+        bike1.mostrarCor();
         */
         //=================================================================================================================================
         // EX 2 - Crie uma classe abstrata InstrumentoMusical com um método abstrato tocar(), e implemente Guitarra e Piano. 
@@ -49,59 +46,69 @@ public class App {
         //=================================================================================================================================
         // EX 3 - Crie uma classe abstrata FormaGeometrica com métodos abstratos calcularArea() e calcularPerimetro(). Crie Circulo e Retangulo. 
         //=================================================================================================================================
-
-        int opcaoSwitchCase;
-
+        /*
         Circulo circulo1 = new Circulo(30);
         Retangulo ret1 = new Retangulo(20, 10);
 
-        
-
-
-
-
+        circulo1.calcularArea();
+        circulo1.calcularPerimetro();
+        ret1.calcularArea();
+        ret1.calcularPerimetro();
+        */
         //=================================================================================================================================
         // EX 4 - Crie uma classe abstrata Funcionario com um método abstrato calcularSalario(). Crie Gerente e Estagiario. 
         //=================================================================================================================================
+        /*
+        Gerente gere1 = new Gerente("Sergio");
+        Gerente gere2 = new Gerente("Felipe");
+        Estagiario estag1 = new Estagiario("Lucas");
+        Estagiario estag2 = new Estagiario("Milena");
 
+        gere1.calcularSalario();
+        gere2.calcularSalario();
+        estag1.calcularSalario();
+        estag2.calcularSalario();
 
-
-
+        gere1.descansar();
+        */
         //=================================================================================================================================
         // EX 5 - Crie uma classe abstrata Animal com um método abstrato fazerSom(). Implemente Cachorro e Gato.  
         //=================================================================================================================================
+        /*
+        Cachorro dog1 = new Cachorro("Beagle", "Fominha", "vermelho e branco", 6);
+        Gato cat1 = new Gato("Persa", "Chapado", "branco", 2);
 
-
-
-
+        dog1.fazerSom();
+        cat1.fazerSom();
+        */
         //=================================================================================================================================
         // EX 6 - Adicione um construtor à classe Animal que aceite um nome e um método getNome().
         //=================================================================================================================================
-
-
-
-
+        /*
+        Veja ex 5
+        */
         //=================================================================================================================================
         // EX 7 - Adicione um método concreto descansar() à classe Funcionario, que imprime Descansando.... 
         //=================================================================================================================================
-        
-
-
-
+        /*
+        Veja ex 4
+        */
         //=================================================================================================================================
         // EX 8 - Adicione um atributo cor à classe Veiculo e um método concreto mostrarCor(). 
         //=================================================================================================================================
-
-
-
-
+        /*
+        Veja ex 1
+        */
         //=================================================================================================================================
         // EX 9 - Crie uma classe Banco com um método abstrato realizarTransacao(), e implemente Deposito e Saque. 
         //=================================================================================================================================
-
-
-
-
+        /*
+        Deposito dep1 = new Deposito(123456);
+        Saque saq1 = new Saque(456789);
+        
+        dep1.realizarTransacao();
+        saq1.realizarTransacao();
+        */
         //=================================================================================================================================
         // EX 10 - Crie uma classe abstrata Personagem com um método atacar(), e implemente Guerreiro e Mago.
         //=================================================================================================================================
