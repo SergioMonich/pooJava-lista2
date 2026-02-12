@@ -6,6 +6,10 @@
 // EX 7 - Adicione um método concreto descansar() à classe Funcionario, que imprime Descansando.... 
 //=================================================================================================================================
 
+//=================================================================================================================================
+// EX 12 - Adicione um método calcularBonificacao() à classe Funcionario, e sobrescreva em Gerente. 
+//=================================================================================================================================
+
 
 abstract class Funcionario {
 
@@ -27,6 +31,12 @@ abstract class Funcionario {
 
         System.out.println("Funcionario " + nome + " esta descansando...");
 
+    }
+
+    public void calcularBonificacao() {
+
+        System.out.println(nome + " ganhou bonificação de $100");
+        
     }
 
 }

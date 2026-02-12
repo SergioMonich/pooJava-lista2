@@ -70,6 +70,9 @@ public class App {
         estag2.calcularSalario();
 
         gere1.descansar();
+
+        estag1.calcularBonificacao();
+        gere2.calcularBonificacao();
         */
         //=================================================================================================================================
         // EX 5 - Crie uma classe abstrata Animal com um método abstrato fazerSom(). Implemente Cachorro e Gato.  
@@ -112,24 +115,34 @@ public class App {
         //=================================================================================================================================
         // EX 10 - Crie uma classe abstrata Personagem com um método atacar(), e implemente Guerreiro e Mago.
         //=================================================================================================================================
+        /*
+        Guereriro warrior1 = new Guereriro("Tharion", 7);
+        Guereriro warrior2 = new Guereriro("Kael", 8);
+        
+        Mago wizard1 = new Mago("Eldric", 6);
+        Mago wizard2 = new Mago("Magnus", 5);
 
-
-
-
+        warrior1.atacar();
+        warrior2.atacar();
+        wizard1.atacar();
+        wizard2.atacar();
+        */
         //=================================================================================================================================
         // EX 11 - Crie uma classe Jogador que extenda Personagem e adicione um método usarHabilidadeEspecial(). 
         //=================================================================================================================================
+        /*
+        Jogador player1 = new Jogador("Sergio", 0);
+        Jogador player2 = new Jogador("Felipe", 0);
 
-
-
-
+        player1.usarHabilidadeEspecial();
+        player2.usarHabilidadeEspecial();
+        */
         //=================================================================================================================================
         // EX 12 - Adicione um método calcularBonificacao() à classe Funcionario, e sobrescreva em Gerente. 
         //=================================================================================================================================
-
-
-
-
+        /*
+        Veja ex 4
+        */
         //=================================================================================================================================
         // EX 13 - Adicione uma lista de funcionários a Empresa e um método listarFuncionarios(). 
         //=================================================================================================================================

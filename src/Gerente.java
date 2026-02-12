@@ -2,6 +2,10 @@
 // EX 4 - Crie uma classe abstrata Funcionario com um método abstrato calcularSalario(). Crie Gerente e Estagiario. 
 //=================================================================================================================================
 
+//=================================================================================================================================
+// EX 12 - Adicione um método calcularBonificacao() à classe Funcionario, e sobrescreva em Gerente. 
+//=================================================================================================================================
+
 
 public class Gerente extends Funcionario {
 
@@ -17,5 +21,14 @@ public class Gerente extends Funcionario {
         
         System.out.println("Salario do GERENTE " + nome);
     }
+
+    @Override
+    public void calcularBonificacao() {
+        
+        System.out.println(nome + " ganhou bonificação de $200");
+
+    }
+
+    
 
 }

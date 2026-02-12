@@ -1,0 +1,23 @@
+//=================================================================================================================================
+// EX 10 - Crie uma classe abstrata Personagem com um método atacar(), e implemente Guerreiro e Mago.
+//=================================================================================================================================
+
+
+public class Guereriro extends Personagem {
+
+    // construtor com herança
+     public Guereriro(String nome, int forca) {
+        
+        super(nome, forca);
+
+    }
+
+    // sobrescrita do método abstrato
+    @Override
+    public void atacar() {
+        
+        System.out.println("O guerreiro " + nome + " atacou com " + forca + " de força...");
+        
+    }
+
+}
