@@ -1,3 +1,12 @@
+/**
+--> AUTOR...: SERGIO MONICH
+--> DATA....: 11/02/2026
+--> OBJETIVO: EXERCITAR OS CONCEITOS DE PROGRAMAÇÃO ORIENTADA A OBJETOS COM TECNOLOGIA JAVA
+--> GITHUB..: https://github.com/SergioMonich/
+--> LINKEDIN: https://www.linkedin.com/in/sergiomonich/
+*/
+
+
 //=================================================================================================================================
 // EX 5 - Crie uma classe abstrata Animal com um método abstrato fazerSom(). Implemente Cachorro e Gato.  
 //=================================================================================================================================

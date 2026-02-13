@@ -1,3 +1,12 @@
+/**
+--> AUTOR...: SERGIO MONICH
+--> DATA....: 10/02/2026
+--> OBJETIVO: EXERCITAR OS CONCEITOS DE PROGRAMAÇÃO ORIENTADA A OBJETOS COM TECNOLOGIA JAVA
+--> GITHUB..: https://github.com/SergioMonich/
+--> LINKEDIN: https://www.linkedin.com/in/sergiomonich/
+*/
+
+
 //=================================================================================================================================
 // EX 1 - Crie uma classe abstrata Veiculo com um método abstrato mover(), e implemente Carro e Bicicleta. 
 //=================================================================================================================================
