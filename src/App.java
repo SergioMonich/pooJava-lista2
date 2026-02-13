@@ -184,52 +184,91 @@ public class App {
         //=================================================================================================================================
         // EX 17 - Crie uma classe Restaurante que contenha pratos (Prato), e implemente pratos específicos (Pizza, Sushi).
         //=================================================================================================================================
+        /*
+        Pizza piz1 = new Pizza("Napolitana", "G");
+        Pizza piz2 = new Pizza("Calabresa", "M");
+        Sushi sus1 = new Sushi("Nigiri", null);
+        Sushi sus2 = new Sushi("Maki", null);
 
-
-
-
+        piz1.pratoPronto();
+        piz2.pratoPronto();
+        sus1.pratoPronto();
+        sus2.pratoPronto();
+        */
         //=================================================================================================================================
         // EX 18 - Crie uma classe Jogo com um método iniciar(), e implemente JogoAventura e JogoCorrida. 
         //=================================================================================================================================
+        /*
+        JogoAventura ja1 = new JogoAventura("Sombras de Valdrenn: O Despertar das Runas");
+        JogoAventura ja2 = new JogoAventura("Crônicas de Eldoria: A Lenda do Guardião");
+        JogoCorrida jc1 = new JogoCorrida("Velocidade Extrema: Horizonte Urbano");
+        JogoCorrida jc2 = new JogoCorrida("Nitro selvagem: Desafio das Pistas");
 
-
-
-
+        ja1.iniciar();
+        ja2.iniciar();
+        jc1.iniciar();
+        jc2.iniciar();
+        */
         //=================================================================================================================================
         // EX 19 - Crie uma classe Forma3D que tenha calcularVolume(), e implemente Esfera e Cubo. 
         //=================================================================================================================================
+        /*
+        Esfera esf1 = new Esfera(5);
+        Cubo cub1 = new Cubo(10);
 
-
-
-
+        esf1.calcularVolume();
+        cub1.calcularVolume();
+        */
         //=================================================================================================================================
         // EX 20 - Crie uma classe Computador com um método processar(), e implemente Desktop e Notebook. 
         //=================================================================================================================================
+        /*
+        Desktop desk1 = new Desktop("Dell XPS i1200-M10D");
+        Notebook note1=  new Notebook("Lenovo Ideapad Slim 3I");
 
-
-
-
+        desk1.processar();
+        note1.processar();
+        */
         //=================================================================================================================================
         // EX 21 - Crie uma classe RedeSocial com métodos postar() e curtir(), e implemente Facebook e Twitter. 
         //=================================================================================================================================
+        /*
+        Facebook FB1 = new Facebook("Sérgio");
+        Facebook FB2 = new Facebook("Lucas");
+        Twitter TT1 = new Twitter("Micheli");
+        Twitter TT2 = new Twitter("Milena");
 
-
-
-
+        FB1.curtir();
+        FB2.postar();
+        TT1.curtir();
+        TT2.postar();
+        */
         //=================================================================================================================================
         // EX 22 - Crie uma classe ContaBancaria com métodos sacar() e depositar(), e implemente ContaCorrente e ContaPoupanca.  
         //=================================================================================================================================
+        /*
+        ContaCorrente cc1 = new ContaCorrente("CC", "Sergio Monich", 1234, 10000, 500);
+        ContaPoupanca cp1 = new ContaPoupanca("CP", "Micheli Monich", 987654, 20000, 250);
 
+        cc1.depositar();
+        cc1.depositar();
+        cc1.sacar();
 
-
-
+        cp1.depositar();
+        cp1.depositar();
+        cp1.depositar();
+        cp1.sacar();
+        */
         //=================================================================================================================================
         // EX 23 - Crie uma classe Dispositivo com um método conectarInternet(), e implemente Smartphone e SmartTV. 
         //=================================================================================================================================
+        /*
+        Smartphone smt1 = new Smartphone("Apple iPhone 15");
+        SmartTV stv1 = new SmartTV("TV LG 32 HDR");
 
-
-
-
+        smt1.conectarInternet();
+        stv1.conectarInternet();
+        */
         //=================================================================================================================================
         // EX 24 - Crie uma classe Pagamento com um método realizarPagamento(), e implemente CartaoCredito e BoletoBancario. 
         //=================================================================================================================================
