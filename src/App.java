@@ -73,6 +73,12 @@ public class App {
 
         estag1.calcularBonificacao();
         gere2.calcularBonificacao();
+        
+        Desenvolvedor dev1 = new Desenvolvedor("Jorge", "Analista de Sistemas");
+        Designer des1 = new Designer("Rebeca", "Arte Finalista");
+
+        dev1.baterPonto();
+        des1.baterPonto();
         */
         //=================================================================================================================================
         // EX 5 - Crie uma classe abstrata Animal com um método abstrato fazerSom(). Implemente Cachorro e Gato.  
@@ -306,29 +312,43 @@ public class App {
         //=================================================================================================================================
         // EX 27 - Crie uma classe Produto com um método calcularDesconto(), e implemente Eletronico e Alimento.
         //=================================================================================================================================
+        /*
+        Eletronico eltr1 = new Eletronico("Caixa PartyBox JBL", 1999);
+        Eletronico eltr2 = new Eletronico("PlayStation 5", 3799);
+        Alimento almt1 = new Alimento("Tomate", 3);
+        Alimento almt2 = new Alimento("Abacaxi", 9);
 
-
-
-
+        eltr1.calcularDesconto();
+        eltr2.calcularDesconto();
+        almt1.calcularDesconto();
+        almt2.calcularDesconto();
+        */
         //=================================================================================================================================
-        // EX 28 - CCrie uma classe Funcionario com um método baterPonto(), e implemente Desenvolvedor e Designer. 
+        // EX 28 - Crie uma classe Funcionario com um método baterPonto(), e implemente Desenvolvedor e Designer. 
         //=================================================================================================================================
-
-
-
-
+        /*
+        Veja ex 4
+        */
         //=================================================================================================================================
         // EX 29 - Crie uma classe Aula com um método ministrar(), e implemente Matematica e Portugues.  
         //=================================================================================================================================
+        /*
+        Matematica mtm1 = new Matematica("Matheus", "Calculo II");
+        Portugues prt1 = new Portugues("Marcos", "Gramatica");
 
-
-
-
+        mtm1.ministrar();
+        prt1.ministrar();
+        */
         //=================================================================================================================================
         // EX 30 - Crie uma classe Estoque com um método atualizarQuantidade(), e implemente Eletronicos e Roupas.
         //=================================================================================================================================
+        /*
+        Eletronicos eltr1 = new Eletronicos("HeadSet Gamer Fitline H9", 10, 5, 12);
+        Roupas roup1 = new Roupas("Calça Jeans", 30, 15, 20);
         
-    
-
+        eltr1.atualizarQuantidade();
+        eltr1.atualizarQuantidade();
+        roup1.atualizarQuantidade();
+        */
     }
 }

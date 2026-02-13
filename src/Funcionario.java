@@ -19,6 +19,10 @@
 // EX 12 - Adicione um método calcularBonificacao() à classe Funcionario, e sobrescreva em Gerente. 
 //=================================================================================================================================
 
+//=================================================================================================================================
+// EX 28 - Crie uma classe Funcionario com um método baterPonto(), e implemente Desenvolvedor e Designer. 
+//=================================================================================================================================
+
 
 abstract class Funcionario {
 
@@ -47,5 +51,7 @@ abstract class Funcionario {
         System.out.println(nome + " ganhou bonificação de $100");
         
     }
+
+    public abstract void baterPonto();
 
 }
